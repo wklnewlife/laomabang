@@ -14,7 +14,6 @@ spring:
     show-sql: true
     database: postgresql
 
-<<<<<<< HEAD
 #  redis:
 #    host: 127.0.0.1
 #    port: 6379
@@ -26,6 +25,4 @@ spring:
 #    timeout: 0
 
 debug: true
-=======
->>>>>>> a3629e3b071a3622cdc176967919ba9ce77fba75
 
