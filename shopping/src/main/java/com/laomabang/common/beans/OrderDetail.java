@@ -1,15 +1,16 @@
-package com.laomabang.module;
+package com.laomabang.common.beans;
 
 import lombok.Data;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.math.BigDecimal;
 
 /**
- * Created by dazhuang on 2017/12/12.
+ * Created by dazhuang on 2017/12/19.
  */
+@Entity
 @Data
-@Entity(name = "order_detail")
 public class OrderDetail {
     @Id
     private String detailId;
@@ -31,5 +32,4 @@ public class OrderDetail {
 
     /** 商品小图. */
     private String productIcon;
-
 }
