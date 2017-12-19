@@ -1,6 +1,25 @@
+<<<<<<< HEAD
 server:
   context-path: /shopping
   port: 2018
+=======
+spring:
+  type: com.zaxxer.hikari.HikariDataSource
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shopping
+    username: postgres
+    password: Laoma666
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      idle-timeout: 10000
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: postgresql
+
+>>>>>>> a3629e3b071a3622cdc176967919ba9ce77fba75
 
 spring:
   profiles:

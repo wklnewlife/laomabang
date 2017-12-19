@@ -1,0 +1,7 @@
+server:
+  context-path: /shopping
+  port: 2018
+
+spring:
+  profiles:
+    active: dev
